@@ -1,0 +1,76 @@
+/* Write your code here. */
+/*.Notification-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}*/
+
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #0f172a;
+}
+.primary-bg-color {
+  background-color: #0b69ff;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px;
+}
+.success-bg-color {
+  background-color: #2dca73;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px;
+}
+.warning-bg-color {
+  background-color: #ffb800;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px;
+}
+.danger-bg-color {
+  background-color: #ff0b37;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px;s
+}
+.logo {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.message {
+  font-family: roboto;
+  font-size: 10px;
+  color: #ffffff;
+}
